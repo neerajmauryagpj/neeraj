@@ -131,7 +131,11 @@ header.stiky ul li a{
 }
 .contentBx h3{
 	font-size: 24px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+}
+.contentBx p{
+	letter-spacing: 0.5px;
+	font-size: 18px;
 }
 .w50{
 	min-width: 50%;
@@ -269,7 +273,7 @@ header.stiky ul li a{
 }
 
 /*Responsive Code*/
-@media(max-width: 991px){
+@media(max-width: 990px){
 	header .logo{
 		font-size: 20px;
 		letter-spacing: 1px;
@@ -281,7 +285,7 @@ header.stiky ul li a{
 	}
 	.menu{
 		position: fixed;
-		top: 68px;
+		top: 80px;
 		left: -100%;
 		display: block;
 		padding: 50px 50px;
@@ -296,10 +300,16 @@ header.stiky ul li a{
 	.menu.active{
 		left: 0;
 	}
+	header ul li{
+		border-bottom:	1px solid #2196f9; 
+	}
 	header ul li a{
-		color: #111 !important;
-		font-size: 24px;
+		color: #2196f3 !important;
+		font-size: 20px;
 		margin: 5px;
+	}
+	header ul li a:hover{
+		color: #2196f9 !important;
 	}
 	.toggle{
 		width: 40px;
@@ -320,7 +330,7 @@ header.stiky ul li a{
 		filter: invert(1);
 	}
 	section {
-    	padding: 100px 50px;
+    	padding: 100px 20px;
 	}
 	.services{
 		padding: 0;
@@ -381,11 +391,77 @@ header.stiky ul li a{
 
 }
 @media(max-width: 600px){
+	.menu{
+		top: 60px;
+	}
 	.project .content{
 		flex-direction: row;
 	}
 	.project .content .projectBx{
 		width: 100%;
 		padding: 20px;
+	}
+}
+@media(max-width: 600px){
+	header .logo{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	header,
+	header.stiky{
+		padding: 10px 20px;
+		z-index: 1000;
+	}
+	.toggle{
+		background-size: 25px;
+	}
+	.toggle.active{
+		background-size: 25px;
+	}
+	section {
+    	padding: 80px 20px;
+	}
+	.banner{
+		padding: 80px 20px 8px;
+	}
+	.banner h2 {
+    font-size: 1em;
+	}
+	.banner h3{
+		font-size: 0.8em;
+	}
+	.btn{
+		margin-top: 10px;
+		font-size: 14px;
+		padding: 8px 15px;
+	}
+	.about{
+		padding: 50px 20px;
+	}
+	.heading h2{
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.contentBx h3{
+		font-size: 16px;
+		margin-bottom: 3px;
+	}
+	.contentBx p{
+		font-size: 14px;
+	}
+	.services{
+		padding: 0px;
+	}
+	.fixed-bg {
+	    padding: 50px 20px;
+	}
+	.project {
+    	padding: 50px 20px;
+	}
+	.contact {
+	    padding: 50px 20px;
+	}
+	.formBx form textarea {
+	    min-height: 110px;
 	}
 }

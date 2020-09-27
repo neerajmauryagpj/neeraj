@@ -162,6 +162,10 @@ header.stiky ul li a{
 .serviceBx{
 	color: #fff;
 }
+.serviceBx img{
+	height: 180px;
+	width: 70%;
+}
 .services .content{
 	display: flex;
 	justify-content: center;

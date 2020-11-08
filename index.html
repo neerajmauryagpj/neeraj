@@ -31,10 +31,10 @@
 	<div class="content">
 		<div class="contentBx w50">
 			<h3>I am full stack developer and learner.</h3>
-			<p>I will do web development for you in a short time with HTML5, CSS, Javascript, latest animations and transitions and all the features like Signup and Login feasibility, database integration. One of the key features that a site need is a Modern Design combined with a great User Interface. Being a web designer & a developer I can provide you with a high-end website that will turn your site visitors into clients.</p>
+			<p>I will do web development for you in a short time with HTML5, CSS, Javascript, latest animations and transitions,responsive design and all the features like Signup and Login feasibility, database integration. One of the key features that a site need is a Modern Design combined with a great User Interface. Being a web designer & a developer I can provide you with a high-end website that will turn your site visitors into clients.</p>
 		</div>
-		<div class="w50 imgBx">
-			<img src="img/aboutme.jpg" class="img">
+		<div class="w50 imgBx hide">
+			<img src="img/web.png" class="img">
 		</div>
 	</div>
 </section>
@@ -42,38 +42,61 @@
   <div class="fixed-bg">
 	<div class="heading white">
 		<h2>Our Skill</h2>
-		<p>I am a fast learner. I want to use my skill for a organization.</p>
+		<!-- <p>I am a fast learner. I want to use my skill for a organization.</p> -->
 	</div>
 	<div class="content">
-		<div class="serviceBx">
-			<img src="img/html.png" alt="Web Development">
-			<h2>HTML</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		<div class="w50">
+			<img src="img/web-development.png" class="img"/>
 		</div>
-		<div class="serviceBx">
-			<img src="img/css.png" alt="Web Development">
-			<h2>CSS</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-		</div>
-		<div class="serviceBx">
-			<img src="img/js.png" alt="Web Development">
-			<h2>JAVA SCRIPT</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-		</div>
-		<div class="serviceBx">
-			<img src="img/jquery.png" alt="Web Development">
-			<h2>JQuery</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-		</div>
-		<div class="serviceBx">
-			<img src="img/php.png" alt="Web Development">
-			<h2>PHP</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-		</div>
-		<div class="serviceBx">
-			<img src="img/python.png" alt="Web Development">
-			<h2>PYTHON</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		<div class="w50">
+			<div class="progress-bar"> 
+				<div class="progress-item">
+					<span>HTML & HTML5</span>
+				</div>
+				<div class="progress prog1">
+					<span>90%</span>
+				</div>
+			</div>
+			<div class="progress-bar"> 
+				<div class="progress-item">
+					<span>CSS & CSS3</span>
+				</div>
+				<div class="progress prog2">
+					<span>85%</span>
+				</div>
+			</div>
+			<div class="progress-bar"> 
+				<div class="progress-item">
+					<span>JAVA SCRIPT</span>
+				</div>
+				<div class="progress prog3">
+					<span>45%</span>
+				</div>
+			</div>
+			<div class="progress-bar"> 
+				<div class="progress-item">
+					<span>BOOTSTRAP</span>
+				</div>
+				<div class="progress prog4">
+					<span>75%</span>
+				</div>
+			</div>
+			<div class="progress-bar"> 
+				<div class="progress-item">
+					<span>PHP</span>
+				</div>
+				<div class="progress prog5">
+					<span>60%</span>
+				</div>
+			</div>
+			<div class="progress-bar"> 
+				<div class="progress-item">
+					<span>Django</span>
+				</div>
+				<div class="progress prog6">
+					<span>20%</span>
+				</div>
+			</div>
 		</div>
 	</div>
   </div>
@@ -87,13 +110,13 @@
 			<img src="img/project1.png" alt="Project1">
 		</div>
 		<div class="projectBx">
-			<img src="img/project2.png" alt="Project1">
+			<img src="img/project2.png" alt="Project2">
 		</div>
 		<div class="projectBx">
-			<img src="img/project3.png" alt="Project1">
+			<img src="img/project3.png" alt="Project3">
 		</div>
 		<div class="projectBx">
-			<img src="img/project4.png" alt="Project1">
+			<img src="img/project4.png" alt="Project4">
 		</div>
 	</div>
 	<div class="heading">
@@ -137,7 +160,7 @@
 				<input type="text" name="name" placeholder="Name" required>
 				<input type="email" name="email" placeholder="Email" required>
 				<textarea placeholder="Your Message" required></textarea>
-				<input type="submit" name="submit" value="Send" onclick="send()">
+				<input type="submit" name="submit" value="Send">
 			</form>
 		</div>
 	</div>
@@ -156,9 +179,6 @@
 		menuToggle.classList.toggle('active');
 		menu.classList.toggle('active');
 
-	}
-function send(){
-	alert("Can't send Message!,Because this is a Static Website")
 	}
 </script>
 </body>
